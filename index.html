@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=News+Cycle&family=Raleway:ital,wght@0,100;0,200;1,100&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+  
+  <main class="container">
+    <div class="api" id="datos"></div>
+    <!--H1-->
+    <h1  class="title">Gestión de gastos</h1>
+     
+    <!--section-->
+      <section class="card">
+       
+        <div class="control">
+          <div class="display">
+            <input id="nombre" type="text" placeholder="Nombre del gasto">
+            <input id="valor" type="number" placeholder="Monto gastado">
+            <button id="btnEnviar">Enviar</button>
+          </div>
+          <!--total-->
+          <div  class="total" id="gastos"></div>
+        </div>
+
+         <!--lista de gasto js-->
+        <div class="lista">
+            <div id="fecha"></div>
+            <div id="lista"></div>
+            <div id="precios"></div>
+        </div>
+          
+      </section>
+    </main>
+       <!-- javaScript-->
+    <script src="main.js"></script>
+    <!--Sweet Alert-->
+    <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
+
