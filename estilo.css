@@ -15,8 +15,9 @@ body {
 }
 
 .title{
-color: rgba(0, 0, 0, 0.253);
+color: rgba(82, 80, 80, 0.774);
 font-family: Raleway;
+font-weight: normal;
 font-size: 3rem;
 text-align: center;
 letter-spacing: 5px;
@@ -39,7 +40,7 @@ margin-bottom: 5%;
 .lista{
  color:rgb(114, 111, 111);
  font-family: Raleway;
- font-size: 200%;
+ font-size: 170%;
  letter-spacing: 2px;
  display: flex;
  justify-content: space-evenly;
@@ -54,7 +55,7 @@ margin-bottom: 5%;
 
 .total{
   color: rgb(82, 80, 80);
-  font-size: 2rem;
+  font-size: 150%;
   font-family: Raleway;
   letter-spacing: 1px;
   text-align: center;
